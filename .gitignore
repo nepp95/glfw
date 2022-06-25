@@ -6,7 +6,6 @@ _ReSharper*
 *.sdf
 *.suo
 *.dir
-*.vcxproj*
 *.sln
 .vs
 CMakeSettings.json
@@ -16,6 +15,9 @@ Debug
 Release
 MinSizeRel
 RelWithDebInfo
+bin
+bin-int
+*.vcxproj*
 *.opensdf
 
 # Xcode clutter
