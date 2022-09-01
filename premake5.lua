@@ -7,6 +7,7 @@ project "Glfw"
 
 	files {
 		"src/context.c",
+		"src/egl_context.c",
 		"src/init.c",
 		"src/input.c",
 		"src/monitor.c",
@@ -14,7 +15,10 @@ project "Glfw"
 		"src/null_joystick.c",
 		"src/null_monitor.c",
 		"src/null_window.c",
+		"src/osmesa_context.c",
 		"src/platform.c",
+		"src/vulkan.c",
+		"src/wgl_context.c",
 		"src/win32_init.c",
 		"src/win32_joystick.c",
 		"src/win32_module.c",
