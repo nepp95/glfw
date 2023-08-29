@@ -5,6 +5,11 @@ project "glfw"
 	targetdir ("%{wks.location}/Bin/" .. OutputDir .. "/%{prj.name}")
     objdir ("%{wks.location}/Bin-Int/" .. OutputDir .. "/%{prj.name}")
 
+	defines {
+		"_GLFW_WIN32",
+		"_CRT_SECURE_NO_WARNINGS"
+	}
+
 	files {
 		"src/context.c",
 		"src/egl_context.c",
@@ -31,11 +36,6 @@ project "glfw"
 
 	includedirs {
 		"include/GLFW"
-	}
-
-	defines {
-		"_GLFW_WIN32",
-		"_CRT_SECURE_NO_WARNINGS"
 	}
 
 	filter "configurations:Debug"
