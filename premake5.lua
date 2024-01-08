@@ -53,6 +53,7 @@ project "glfw"
 			"src/egl_context.c",
 			"src/glx_context.c",
 			"src/linux_joystick.c",
+			"src/osmesa_context.c",
 			"src/posix_module.c",
 			"src/posix_poll.c",
 			"src/posix_time.c",
