@@ -19,6 +19,7 @@ project "glfw"
 		"src/null_joystick.c",
 		"src/null_monitor.c",
 		"src/null_window.c",
+		"src/osmesa_context.c",
 		"src/platform.c",
 		"src/vulkan.c",
 		"src/window.c"
